@@ -1,0 +1,42 @@
+.tab-btns{
+    background: transparent;
+    border: 0px;
+    height: 50px;
+    width: 100%;
+    border-radius: 16px;
+    color: #A3ADB2;
+    font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 16.12px;
+  text-align: center;
+  
+  
+  }
+
+  @media all and (max-width: 992px) {
+    .tab-btns{
+      font-size: 14px;
+    }
+  }
+  
+  .tab-btns:hover{
+    transition: all 400ms ease-in;
+    background: linear-gradient(90deg, rgba(39, 39, 40, 0.1176) 0%, rgba(150, 190, 231, 0.0576) 100%);
+    
+  }
+  
+  .btn-selected{
+    background: #28292F;
+    box-shadow: 13.49px 16.87px 67.47px 8.43px #0A0A0A;
+    box-shadow: -8.43px -16.87px 50.6px -16.87px #485B71;
+    color: white;
+  }
+
+  .btn-selected:hover{
+    background: #28292F;
+    box-shadow: 13.49px 16.87px 67.47px 8.43px #0A0A0A;
+    box-shadow: -8.43px -16.87px 50.6px -16.87px #485B71;
+    color: white;
+  }
+  
